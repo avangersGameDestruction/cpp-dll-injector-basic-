@@ -25,8 +25,8 @@ DWORD GetProcId(const char* processID) {
 
 int main()
 {
-	const char* Path = "C:\\KinkyClient\\kinkyclient.dll";
-	const char* Game = "csgo.exe";
+	const char* Path = "C:\\Folder name\\your dll name .dll";
+	const char* Game = "game name";
 	DWORD ID = 0;
 
 	while (!ID) {
